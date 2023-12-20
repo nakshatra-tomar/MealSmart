@@ -283,3 +283,25 @@
     flex-direction: column;
     gap: 2rem;
   }
+
+  .meal-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  
+  .meal-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #2250e6;
+  }
+  
+  .meal-img {
+    width: 100%;
+  }
+  
+  .all-recipes {
+    text-align: center;
+    font-size: 1.8rem;
+  }
