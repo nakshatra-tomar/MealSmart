@@ -222,10 +222,6 @@
 .step-img {
     width: 35%;
   
-
-/* MEALS SECTION */
-
-
 }
 .section-meals {
     padding: 9.6rem 0;
@@ -308,12 +304,6 @@
     text-align: center;
     font-size: 1.8rem;
 }
-
-
-/* TESTIMONIALS SECTION */
-
-
-
 .section-testimonials {
     background-color: #d3daf9;
     display: grid;
