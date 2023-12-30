@@ -87,6 +87,26 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+
+  transition: all 0.3s;
+}
+
 .btn--full:link,
 .btn--full:visited {
   background-color: #155b87;
@@ -123,36 +143,6 @@ body {
   color: #555;
 }
 
-.btn--full:hover,
-.btn--full:active {
-  background-color: #0a183b;
-}
-
-.btn--outline:link,
-.btn--outline:visited {
-  background-color: #fff;
-  color: #555;
-}
-
-.btn--outline:hover,
-.btn--outline:active {
-  background-color: #e9ebfd;
-
-
-  box-shadow: inset 0 0 0 3px #fff;
-}
-
-.btn--form {
-  background-color: #08112e;
-  color: #e9edfd;
-  align-self: end;
-  padding: 1.2rem;
-}
-
-.btn--form:hover {
-  background-color: #fff;
-  color: #555;
-}
 
 .link:link,
 .link:visited {
